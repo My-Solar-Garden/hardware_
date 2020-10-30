@@ -19,7 +19,7 @@ for sensor in sensors:
     id = None
     while answer != "Y" and answer != "N":
         print("Do you have a % s sensor? [Y/N]" % sensor)
-        answer = input().upper()
+        answer = raw_input().upper()
 
         if answer == "Y":
             while not isinstance(id, int):
@@ -48,15 +48,15 @@ data = {
 }
 
 while True:
-    data['light'] = grovepi.analogRead(light_sensor)
+    if sensor_ids.has_key('Light'):
+        data['light'] = grovepi.analogRead(light_sensor)
+        requests.post("https://solar-garden-be.herokuapp.com/api/v1/garden_healths", params={'sensor_id': sensor_ids['Light'], 'reading_type': 'light', 'reading': data['light']})
 
-    requests.post("https://solar-garden-be.herokuapp.com/api/v1/garden_healths", params={'sensor_id': sensor_ids['Light'], 'reading_type': 'light', 'reading': data['light']}, headers={'CONTENT_TYPE': 'application/json'})
-
-    data['temp'],data['humidity'] = grovepi.dht(dht_sensor,0)
-
-    requests.post("https://solar-garden-be.herokuapp.com/api/v1/garden_healths", params={'sensor_id': sensor_ids['Temperature & Humidity'], 'reading_type': 'temperature', 'reading': data['temperature']}, headers={'CONTENT_TYPE': 'application/json'})
+    if sensor_ids.has_key('Temperature & Humidity'):
+	data['temp'],data['humidity'] = grovepi.dht(dht_sensor,0)
+        requests.post("https://solar-garden-be.herokuapp.com/api/v1/garden_healths", params={'sensor_id': sensor_ids['Temperature & Humidity'], 'reading_type': 'moisture', 'reading': data['temp']})
 
     grovepi.ledBar_setBits(ledbar, val % 1024)
     val += 1
     print(json.dumps(data))
-    time.sleep(60*60*12)
+    time.sleep(2)
