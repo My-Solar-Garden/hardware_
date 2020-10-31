@@ -23,6 +23,7 @@ This is the hardware repo for the [My Solar Garden App](insert link here). The M
 Tech Setup
 - clone this repo to your RaspberryPi
 - Run the following on your initial set up to configure the program with the sensor ids registered on the My Solar App (link to sensor id page?)
+    - `pip install requests`
     - `python insert_sensor_ids.py` insert your ids on the command line
 - `python start_sensors.py`
 
@@ -33,3 +34,15 @@ Physical Setup
     - Port A0: Light Sensor
     - Port D4: LED bar
 - Place the sensors near your garden (insert pictures)
+
+## Sensor Readings Context
+    - Sensor readings are being posted to the production database, so any sensor readings in test will have to be mocked
+### Light Sensor:
+    - no/very little light: 0
+    - dim: 30-100
+    - mid-level: 200-500
+    - bright: 500-740
+    - very bright: 740-770 (This is basically any direct sunlight on the sensor)
+    
+### Temperature Sensor:
+    - Returns degrees in celcius
