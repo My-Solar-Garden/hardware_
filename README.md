@@ -11,7 +11,7 @@ This is the hardware repo for the [My Solar Garden App](insert link here). The M
 
 ## Compatible Hardware
 
-- RaspberryPi Model 3 or Higher (insert link)
+- [RaspberryPi Model 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/?resellerType=home) or Higher 
 - GrovePi Sensors
     - Temperature & Humidity Sensor v1.2 (insert link)
     - Light Sensor v1.2 (insert link)
