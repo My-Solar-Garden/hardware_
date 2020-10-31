@@ -23,6 +23,7 @@ This is the hardware repo for the [My Solar Garden App](insert link here). The M
 Tech Setup
 - clone this repo to your RaspberryPi
 - Run the following on your initial set up to configure the program with the sensor ids registered on the My Solar App (link to sensor id page?)
+    - `pip install requests`
     - `python insert_sensor_ids.py` insert your ids on the command line
 - `python start_sensors.py`
 
