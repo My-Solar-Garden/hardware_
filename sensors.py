@@ -53,8 +53,8 @@ while True:
         requests.post("https://solar-garden-be.herokuapp.com/api/v1/garden_healths", params={'sensor_id': sensor_ids['Light'], 'reading_type': 'light', 'reading': data['light']})
 
     if sensor_ids.has_key('Temperature & Humidity'):
-	    data['temp'],data['humidity'] = grovepi.dht(dht_sensor,0)
-        requests.post("https://solar-garden-be.herokuapp.com/api/v1/garden_healths", params={'sensor_id': sensor_ids['Temperature & Humidity'], 'reading_type': 'moisture', 'reading': data['temp']})
+	 data['temp'],data['humidity'] = grovepi.dht(dht_sensor,0)
+         requests.post("https://solar-garden-be.herokuapp.com/api/v1/garden_healths", params={'sensor_id': sensor_ids['Temperature & Humidity'], 'reading_type': 'moisture', 'reading': data['temp']})
 
     grovepi.ledBar_setBits(ledbar, val % 1024)
     val += 1
