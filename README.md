@@ -33,3 +33,15 @@ Physical Setup
     - Port A0: Light Sensor
     - Port D4: LED bar
 - Place the sensors near your garden (insert pictures)
+
+## Sensor Readings Context
+    - Sensor readings are being posted to the production database, so any sensor readings in test will have to be mocked
+### Light Sensor:
+    - no/very little light: 0
+    - dim: 30-100
+    - mid-level: 200-500
+    - bright: 500-740
+    - very bright: 740-770 (This is basically any direct sunlight on the sensor)
+    
+### Temperature Sensor:
+    - Returns degrees in celcius
