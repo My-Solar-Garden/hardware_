@@ -46,20 +46,58 @@ This is the hardware repo for the [My Solar Garden App](https://solar-garden-fe.
 - Connect to your Wifi by running `raspi -config` and entering your Wifi's name and password. 
 - Connect to your Raspberry Pi on your mac's terminal by running `ssh pi@<your ip>` and cd into the repo 
 
-## Understanding Sensor Readings <a name="hardware"></a>
-    - Sensor readings are being posted to the production database, so any sensor readings in test/development will have to be mocked
+## Understanding Sensor Readings <a name="readings"></a>
+   - Sensor readings are being posted to the production database, so any sensor readings in test/development will have to be mocked
 #### Light Sensor:
-    - no/very little light: 0
-    - dim: 30-100
-    - mid-level: 200-500
-    - bright: 500-740
-    - very bright: 740-770 (This is basically any direct sunlight on the sensor)
+   - no/very little light: 0
+   - dim light: 30-100
+   - mid-level light: 200-500
+   - bright light: 500-740
+   - very bright light: 740-770 (This is basically any direct sunlight on the sensor)
     
 #### Temperature Sensor:
-    - Returns degrees in celcius
+   - Returns degrees in celcius
     
 #### Moisture Sensor
 
 ## Contributors
-In no particular order:
+  * Alex Desjardins
+    * [GitHub](https://github.com/moosehandlr)
+    * [LinkedIn](https://www.linkedin.com/in/alex-desjardins-59297b8b/)
+  * Angela Guardia
+    * [GitHub](https://github.com/AngelaGuardia)
+    * [LinkedIn](https://www.linkedin.com/in/angela-guardia/)
+  * Danielle Coleman
+    * [GitHub](https://github.com/dcoleman21)
+    * [LinkedIn](https://www.linkedin.com/in/danielle-coleman-86ab3b13/)
+  * Daniel Lessenden
+    * [GitHub](https://github.com/D-Lessenden)
+    * [LinkedIn](https://www.linkedin.com/in/lessenden/)
+  * Drew Williams
+    * [GitHub](https://github.com/drewwilliams5280)
+    * [LinkedIn](https://www.linkedin.com/in/drewwilliams5280/)
+  * Eric Hale
+    * [GitHub](https://github.com/EHale64)
+    * [LinkedIn](https://www.linkedin.com/in/eric-hale-656843155/)
+  * Hashim Gari
+    * [GitHub](https://github.com/hashmaster3k)
+    * [LinkedIn](https://www.linkedin.com/in/hashim-gari/)
+  * Leah Riffell
+    * [GitHub](https://github.com/leahriffell)
+    * [LinkedIn](https://www.linkedin.com/in/leah-riffell/)
+  * Logan Riffell
+    * [GitHub](https://github.com/lkriffell)
+    * [LinkedIn](https://www.linkedin.com/in/logan-riffell/)
+  * Luke Hunter James-Erickson
+    * [GitHub](https://github.com/LHJE)
+    * [LinkedIn](https://www.linkedin.com/in/luke-hunter-james-erickson-b65682143/)
+  * Nico Rithner 
+    * [GitHub](https://github.com/nicorithner)
+    * [LinkedIn](https://www.linkedin.com/in/nicorithner/)
+  * Norma Lopez 
+    * [GitHub](https://github.com/IamNorma)
+    * [LinkedIn](https://www.linkedin.com/in/norma-lopez/)
+  * Roberto Rodriguez 
+    * [GitHub](https://github.com/robertorodriguez12)
+    * [LinkedIn](https://www.linkedin.com/in/roberto-j-rodriguez12/)
 
