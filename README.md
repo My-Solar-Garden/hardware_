@@ -33,7 +33,7 @@ This is the hardware repo for the [My Solar Garden App](https://solar-garden-fe.
 
 #### Physical Setup
 - Plug the following components to the specified ports on the RaspberryPi:
-<img src="https://user-images.githubusercontent.com/56651612/98299629-42f63b00-1f75-11eb-8d4d-0ac871ef4e7c.jpeg" height="300")
+<img src="https://user-images.githubusercontent.com/56651612/98299629-42f63b00-1f75-11eb-8d4d-0ac871ef4e7c.jpeg" height="300">
 <img src="https://cloud.githubusercontent.com/assets/yourgif.gif" width="400" height="790">
 ![hardware_setup](https://user-images.githubusercontent.com/56651612/98299664-4c7fa300-1f75-11eb-9d0d-257454e643c2.jpeg | height=300)
     - Port D2: Temperature and Humitidy Sensor
