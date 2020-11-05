@@ -12,11 +12,10 @@ This is the hardware repo for the [My Solar Garden App](https://solar-garden-fe.
 ## Compatible Hardware <a name="hardware"></a>
 
 - [RaspberryPi Model 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/?resellerType=home) or Higher
+- [GrovePi+ Board](https://www.seeedstudio.com/GrovePi.html)
 - GrovePi Sensors:
     - [Temperature & Humidity Sensor v1.2](https://wiki.seeedstudio.com/Grove-TemperatureAndHumidity_Sensor/#features)
     - [Light Sensor v1.2](https://wiki.seeedstudio.com/Grove-Light_Sensor/)
-- GrovePi Accessories
-    - [LED Bar v2.0](https://wiki.seeedstudio.com/Grove-LED_Bar/)
 
 ## Setup <a name="setup"></a>
 
@@ -36,7 +35,6 @@ This is the hardware repo for the [My Solar Garden App](https://solar-garden-fe.
 <img src="https://user-images.githubusercontent.com/56651612/98299629-42f63b00-1f75-11eb-8d4d-0ac871ef4e7c.jpeg" height="600"> <img src="https://user-images.githubusercontent.com/56651612/98299664-4c7fa300-1f75-11eb-9d0d-257454e643c2.jpeg" height="600">
     - Port D2: Temperature and Humitidy Sensor
     - Port A0: Light Sensor
-    - Port D4: LED bar
 - Plug in the RaspberryPi to a power source
 - Place the sensors near your garden
 
