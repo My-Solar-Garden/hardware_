@@ -59,4 +59,4 @@ while True:
     grovepi.ledBar_setBits(ledbar, val % 1024)
     val += 1
     print(json.dumps(data))
-    time.sleep(2)
+    time.sleep(60*30)
