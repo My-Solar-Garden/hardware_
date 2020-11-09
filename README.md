@@ -1,6 +1,9 @@
 # [My Solar Garden](https://solar-garden-fe.herokuapp.com/) - Hardware
 
-This is the hardware repo for the [My Solar Garden App](https://solar-garden-fe.herokuapp.com/). The My Solar Garden app allows users to track the health of their gardens through light, temperature, and humidity sensors connected to RaspberryPis. In this repo you will find all the necessary hardware and scripts to connect your own sensors to the My Solar Garden App.
+This is the hardware repo for the [My Solar Garden App](https://solar-garden-fe.herokuapp.com/). The My Solar Garden app allows users to track the health of their gardens through light, temperature, and moisture sensors connected to RaspberryPis. In this repo you will find all the necessary hardware and scripts to connect your own sensors to the My Solar Garden App.
+
+## Repos
+For access to all the repos that make up the Service Oriented Architecture of this application please visit our [origanization page](https://github.com/My-Solar-Garden).
 
 ## Table of Contents
 1. [Compatible Hardware](#hardware)
